@@ -1,0 +1,61 @@
+/* main.css */
+/* estuctura visual de todo la pagina */
+body {
+  background-color: #111111;
+  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* estructura visual del header y footer */
+header, nav, footer {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* estructura fisica del header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* estructura fisica del nal (hijo del header), ul (hijo de nav) */
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* estructura visual del texto de la nav */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+/* estructura visual del texto de la nav al pasar el mouse por encima */
+nav ul li a:hover {
+  background-color: #e50914;
+  color: #fff;
+}
+
+p{
+    color: #fff;
+}
+p strong {
+    color: #7c020e;
+}
+
+h1, h2 {
+    color: #e50914;
+}
