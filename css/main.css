@@ -111,6 +111,10 @@ footer p {
   header {
     padding: 0.5rem;
   }
+  header img {
+    width: 120px;
+  }
+  
   nav ul {
     gap: 0.3rem;
   }
